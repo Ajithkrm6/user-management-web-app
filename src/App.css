@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+/* 
+.list-element {
+  background-color: aqua;
+  border: 1px, solid, "black";
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.hover-text {
+  font-size: 12px;
+  padding: 0px;
+}
+
+.hover-content {
+  display: none; 
+  position: absolute;
+  background: #fff; 
+  border: 1px solid #ccc; 
+  padding: 10px; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
+
+.list-element:hover .hover-content {
+  display: block; 
+} */
