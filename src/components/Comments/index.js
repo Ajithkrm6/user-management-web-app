@@ -41,17 +41,17 @@ export function Comments({ id }) {
       <div>
         <div className="midContainer">
           <div>
-            <label>name</label>
+            <label>Comment</label>
             <br />
             <input value={name} onChange={(e) => setName(e.target.value)} />
           </div>
           <div>
-            <label>email</label>
+            <label>Email</label>
             <br />
             <input value={email} onChange={(e) => setEmail(e.target.value)} />
           </div>
           <div>
-            <label>comment</label>
+            <label>Name</label>
             <br />
             <input value={body} onChange={(e) => setBody(e.target.value)} />
           </div>

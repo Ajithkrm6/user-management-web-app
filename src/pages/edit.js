@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 function Edit() {
-    const [post,setPost]=useState({});
-    const {id}=useParams();
-    useEffect(()=>{
-        const data = await (
-            await fetch(`https://jsonplaceholder.typicode.com/posts?userId=${id}`)
-          ).json();
-    })
+  const [post, setPost] = useState({});
+  const { id } = useParams();
+  useEffect(async () => {
+    const data = await (
+      await fetch(`https://jsonplaceholder.typicode.com/posts?userId=${id}`)
+    ).json();
+  });
   return (
     <form>
       <div>
